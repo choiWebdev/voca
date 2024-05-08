@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +13,119 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.App {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.header {
+  position: relative;
+}
+
+.header .menu {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  display: flex;
+  gap: 5px;
+}
+
+.header .link {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 1px solid #333;
+  border-radius: 3px;
+  background: #eee;
+}
+
+.list_days {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.list_days li {
+  padding: 1rem 2rem;
+  background-color: #366ae2;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.list_days li a {
+  color: inherit;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+}
+
+table .td_chk {
+  width: 40px;
+}
+
+table .td_eng,
+table .td_kor {
+  width: 200px;
+}
+
+table .td_btn {
+  width: 150px;
+}
+
+.btn_del {
+  background: rgb(197, 42, 42);
+}
+
+table button {
+  background: rgb(67, 97, 228);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+table .td_btn button + button {
+  margin-left: 5px;
+}
+
+table tr.off {
+  background: #f2f2f2;
+  color: #ccc;
 }
