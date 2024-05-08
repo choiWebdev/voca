@@ -11,6 +11,10 @@
     {
       "id": "3",
       "day": 3
+    },
+    {
+      "id": "ad25",
+      "day": 4
     }
   ],
   "words": [
@@ -40,6 +44,55 @@
       "day": 3,
       "eng": "cat",
       "kor": "고양이",
+      "isDone": false
+    },
+    {
+      "id": "707c",
+      "day": "2",
+      "eng": "window",
+      "kor": "창문",
+      "isDone": false
+    },
+    {
+      "id": "a8c6",
+      "day": "1",
+      "eng": "house",
+      "kor": "집",
+      "isDone": false
+    },
+    {
+      "id": "17d9",
+      "day": "3",
+      "eng": "mouse",
+      "kor": "쥐",
+      "isDone": false
+    },
+    {
+      "id": "a219",
+      "day": "1",
+      "eng": "desk",
+      "kor": "책상",
+      "isDone": false
+    },
+    {
+      "id": "0e4b",
+      "day": "2",
+      "eng": "bag",
+      "kor": "가방",
+      "isDone": false
+    },
+    {
+      "id": "ab28",
+      "day": "1",
+      "eng": "door",
+      "kor": "문",
+      "isDone": false
+    },
+    {
+      "id": "c366",
+      "day": "4",
+      "eng": "blanket",
+      "kor": "담요",
       "isDone": false
     }
   ]
