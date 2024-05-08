@@ -73,7 +73,6 @@ button {
 }
 
 .list_days li {
-  padding: 1rem 2rem;
   background-color: #366ae2;
   font-weight: 500;
   color: #fff;
@@ -82,6 +81,8 @@ button {
 }
 
 .list_days li a {
+  display: inline-block;
+  padding: 1rem 2rem;
   color: inherit;
 }
 
@@ -128,4 +129,49 @@ table .td_btn button + button {
 table tr.off {
   background: #f2f2f2;
   color: #ccc;
+}
+
+.input_area {
+  display: flex;
+  gap: 5px;
+}
+
+.input_area + .input_area {
+  margin-top: 1rem;
+}
+
+.input_area label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  font-family: '';
+  font-weight: 500;
+  color: #fff;
+  line-height: 3.6rem;
+  text-transform: uppercase;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+}
+
+input[type="text"], select {
+  display: block;
+  flex: 1;
+  width: auto;
+  height: 3.6rem;
+  padding: 0 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn_save {
+  display: block;
+  width: 80px;
+  height: 3.6rem;
+  background-color:rgb(67, 97, 228);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  margin: 2rem auto 0;
 }

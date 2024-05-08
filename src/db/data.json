@@ -1,51 +1,99 @@
 {
-    "days": [
-        {"id": 1, "day": 1},
-        {"id": 2, "day": 2},
-        {"id": 3, "day": 3}
-    ],
-    "words": [
-        {
-            "id": 1,
-            "day": 1,
-            "eng": "book",
-            "kor": "책",
-            "isDone": true
-        },
-        {
-            "id": 2,
-            "day": 1,
-            "eng": "pencil",
-            "kor": "연필",
-            "isDone": false
-        },
-        {
-            "id": 3,
-            "day": 2,
-            "eng": "car",
-            "kor": "자동차",
-            "isDone": false
-        },
-        {
-            "id": 4,
-            "day": 2,
-            "eng": "fan",
-            "kor": "선풍기",
-            "isDone": false
-        },
-        {
-            "id": 5,
-            "day": 3,
-            "eng": "dog",
-            "kor": "강아지",
-            "isDone": false
-        },
-        {
-            "id": 6,
-            "day": 3,
-            "eng": "cat",
-            "kor": "고양이",
-            "isDone": false
-        }
-    ]
+  "days": [
+    {
+      "id": "1",
+      "day": 1
+    },
+    {
+      "id": "2",
+      "day": 2
+    },
+    {
+      "id": "3",
+      "day": 3
+    },
+    {
+      "id": "ad25",
+      "day": 4
+    }
+  ],
+  "words": [
+    {
+      "id": "1",
+      "day": 1,
+      "eng": "book",
+      "kor": "책",
+      "isDone": true
+    },
+    {
+      "id": "3",
+      "day": 2,
+      "eng": "car",
+      "kor": "자동차",
+      "isDone": false
+    },
+    {
+      "id": "5",
+      "day": 3,
+      "eng": "dog",
+      "kor": "강아지",
+      "isDone": false
+    },
+    {
+      "id": "6",
+      "day": 3,
+      "eng": "cat",
+      "kor": "고양이",
+      "isDone": false
+    },
+    {
+      "id": "707c",
+      "day": "2",
+      "eng": "window",
+      "kor": "창문",
+      "isDone": false
+    },
+    {
+      "id": "a8c6",
+      "day": "1",
+      "eng": "house",
+      "kor": "집",
+      "isDone": false
+    },
+    {
+      "id": "17d9",
+      "day": "3",
+      "eng": "mouse",
+      "kor": "쥐",
+      "isDone": false
+    },
+    {
+      "id": "a219",
+      "day": "1",
+      "eng": "desk",
+      "kor": "책상",
+      "isDone": false
+    },
+    {
+      "id": "0e4b",
+      "day": "2",
+      "eng": "bag",
+      "kor": "가방",
+      "isDone": false
+    },
+    {
+      "id": "ab28",
+      "day": "1",
+      "eng": "door",
+      "kor": "문",
+      "isDone": false
+    },
+    {
+      "id": "c366",
+      "day": "4",
+      "eng": "blanket",
+      "kor": "담요",
+      "isDone": false
+    }
+  ]
 }
