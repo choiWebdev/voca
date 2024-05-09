@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Header(){
     return (
         <div className="header">
-            <h1 className="logo">
+            <h1 id="logo">
                 <Link to="/">토익 영단어(고급)</Link>
             </h1>
             <nav className="menu">
